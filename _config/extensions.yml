@@ -1,0 +1,9 @@
+---
+name: weboftalent-owner-creator
+---
+SiteTree:
+  extensions:
+     ['CreatorLastEditorExtension']
+CMSMain:
+  extensions:
+     ['CreatorOnlyCanEditFormExtension']
