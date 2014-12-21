@@ -10,8 +10,6 @@ class CreatorLastEditorExtension extends DataExtension {
 	2) Save the last editor (e.g. an admin) as the person who last edited this document
 	*/
 	public function onBeforeWrite() {
-		error_log('CREATOR LAST EDITOR EXTENSION ON BEFORE WRITE');
-		//$this->owner->parent::onBeforeWrite();
 		if ($this->owner->CreatorID == 0) {
 			$this->owner->CreatorID = Member::currentUserID();
 		}
