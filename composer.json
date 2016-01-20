@@ -1,18 +1,27 @@
 {
-	"name": "weboftalent/creator-last-editor",
-	"description": "Record which Member created or last edited a DataObject",
-	"type": "silverstripe-module",
-	"keywords": ["silverstripe", "author", "edit", "created", "last editor"],
-	"authors": [{
-		"name": "Gordon Anderson",
-		"email": "gordon.b.anderson@gmail.com",
-		"homepage": "https://github.com/gordonbanderson/creator-last-editor",
-		"role": "Developer"
-	}],
-	"support": {
-		"issues": "https://github.com/gordonbanderson/creator-last-editor/issues"
-	},
-	"require": {
-		"silverstripe/cms": "~3.1"
-	}
+  "name": "weboftalent/creator-last-editor",
+  "description": "Record which Member created or last edited a DataObject",
+  "type": "silverstripe-module",
+  "keywords": [
+    "silverstripe",
+    "author",
+    "edit",
+    "created",
+    "last editor"
+  ],
+  "authors": [
+    {
+      "name": "Gordon Anderson",
+      "email": "gordon.b.anderson@gmail.com",
+      "homepage": "https://github.com/gordonbanderson/creator-last-editor",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/gordonbanderson/creator-last-editor/issues"
+  },
+  "require": {
+    "silverstripe/cms": "~3.1"
+  },
+  "license": "BSD-3-Clause"
 }
