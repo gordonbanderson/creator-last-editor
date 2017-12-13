@@ -21,7 +21,7 @@
     "issues": "https://github.com/gordonbanderson/creator-last-editor/issues"
   },
   "require": {
-    "silverstripe/cms": "~3.1"
+    "silverstripe/cms": "~4"
   },
   "license": "BSD-3-Clause"
 }
