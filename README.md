@@ -22,13 +22,16 @@
 * Gordon Anderson (Nickname: nontgor)
 	<gordon.b.anderson@gmail.com>
 
-##Introduction
+## Introduction
 
 This module provides records the original creator and the last editor of a
 given DataObject.  Editing may optionally be restricted to the creator only.
 
-##Usage
+## Usage
 TODO
 
-##Requirements
-* SilverStripe 3.1 or 3.2
+## Requirements
+* SilverStripe 4
+
+## Older Versions of SilverStripe
+Use version ~1 of this module
