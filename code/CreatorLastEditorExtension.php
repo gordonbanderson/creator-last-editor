@@ -8,12 +8,15 @@ use SilverStripe\ORM\DataExtension;
 
 class CreatorLastEditorExtension extends DataExtension
 {
+    /**
+     * @var array has one relationships
+     */
     private static $has_one = array(
         'Creator' => Member::class,
         'LastEditor' => Member::class,
     );
 
-    /*
+    /**
     1) Save the creator as the current editing member if there is not creator already assigned
     2) Save the last editor (e.g. an admin) as the person who last edited this document
     */
@@ -25,7 +28,7 @@ class CreatorLastEditorExtension extends DataExtension
         $this->owner->LastEditorID = Member::currentUserID();
     }
 
-    /*
+    /**
     Allow the admin to override the creator and last editor
     */
     public function updateCMSFields(FieldList $fields)
