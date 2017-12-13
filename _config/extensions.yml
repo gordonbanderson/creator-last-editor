@@ -1,9 +1,9 @@
 ---
 name: weboftalent-owner-creator
 ---
-SiteTree:
+SilverStripe\CMS\Model\SiteTree:
   extensions:
-     ['CreatorLastEditorExtension']
-CMSMain:
+    - CreatorLastEditorExtension
+SilverStripe\CMS\Controllers\CMSMain:
   extensions:
-     ['CreatorOnlyCanEditFormExtension']
+    - CreatorOnlyCanEditFormExtension

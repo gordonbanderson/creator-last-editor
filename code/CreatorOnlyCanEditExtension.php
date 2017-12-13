@@ -1,5 +1,9 @@
 <?php
 
+use SilverStripe\Security\Member;
+use SilverStripe\Security\Permission;
+use SilverStripe\Core\Extension;
+
 class CreatorOnlyCanEditExtension extends Extension
 {
     /*

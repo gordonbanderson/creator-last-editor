@@ -1,5 +1,10 @@
 <?php
 
+use SilverStripe\Security\Member;
+use SilverStripe\ORM\DB;
+use SilverStripe\Security\Permission;
+use SilverStripe\Core\Extension;
+
 class CreatorOnlyCanEditFormExtension extends Extension
 {
     public function updateEditForm(&$form)

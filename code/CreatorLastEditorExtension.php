@@ -1,10 +1,16 @@
 <?php
 
+use SilverStripe\Security\Member;
+use SilverStripe\Forms\FieldList;
+use SilverStripe\Security\Permission;
+use SilverStripe\Forms\DropdownField;
+use SilverStripe\ORM\DataExtension;
+
 class CreatorLastEditorExtension extends DataExtension
 {
     private static $has_one = array(
-        'Creator' => 'Member',
-        'LastEditor' => 'Member',
+        'Creator' => Member::class,
+        'LastEditor' => Member::class,
     );
 
     /*

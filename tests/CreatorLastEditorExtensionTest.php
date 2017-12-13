@@ -1,5 +1,7 @@
 <?php
 
+use SilverStripe\Dev\SapphireTest;
+
 class CreatorLastEditorExtensionTest extends SapphireTest
 {
     public function testOnBeforeWrite()
